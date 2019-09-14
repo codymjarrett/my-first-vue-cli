@@ -40,3 +40,5 @@ new Vue()
 --destroyed
         fire code before destroyed
         clean up listeners 
+
+***slot*** is used to passed down html markup 
