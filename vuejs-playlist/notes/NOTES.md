@@ -42,3 +42,7 @@ new Vue()
         clean up listeners 
 
 ***slot*** is used to passed down html markup 
+
+
+
+***<keep-alive></keep-alive>*** will make sure that when switching between dynamic components that data doesn't restart with new instances of component
