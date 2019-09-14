@@ -1,6 +1,9 @@
 import Vue from 'vue'
 import App from './App.vue'
 
+export const bus = new Vue();
+
+
 // this registers the Ninjas component globally 
 // import Ninjas from './Ninjas.vue'
 
