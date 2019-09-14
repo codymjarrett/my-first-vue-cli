@@ -1,14 +1,8 @@
 import Vue from 'vue'
 import App from './App.vue'
+import VueResource from 'vue-resource'
 
-export const bus = new Vue();
-
-
-// this registers the Ninjas component globally 
-// import Ninjas from './Ninjas.vue'
-
-// creates a component based on the Ninja vue component (name, object)
-// Vue.component('ninjas', Ninjas);
+Vue.use(VueResource);
 
 new Vue({
   el: '#app',
